@@ -11,8 +11,14 @@ useHead({
 
 useSeoMeta({
   title: "pkg.pr.new",
-  description: "Search repositories to list their continuous releases.",
+  description: "Continuous preview releases for your libraries.",
+  ogTitle: "pkg.pr.new",
+  ogDescription: "Continuous preview releases for your libraries.",
+  ogType: "website",
+  twitterCard: "summary_large_image",
 });
+
+defineOgImageComponent("Brand");
 </script>
 
 <template>
